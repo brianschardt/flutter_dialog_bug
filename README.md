@@ -1,16 +1,14 @@
-# tapp
+# This is to demonstrate a very noticable bug in flutter with their drawers
 
-A new Flutter project.
+if you run the app, 
+click open drawer it opens(works as expected)
+Now click screen1, then click the back arrow, then click open drawer
 
-## Getting Started
+Now you get this error
+```
+The method 'openDrawer' was called on null.
+Receiver: null
+Tried calling: openDrawer()
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+How can we fix?
