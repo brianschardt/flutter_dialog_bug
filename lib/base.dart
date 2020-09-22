@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tapp/services/drawer_service.dart';
+import 'package:tapp/drawer_service.dart';
 import './drawer.dart';
 import 'init.dart';
 
